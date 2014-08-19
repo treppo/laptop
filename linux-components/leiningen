@@ -1,4 +1,6 @@
 if ! command -v lein >/dev/null; then
   fancy_echo "Installing leiningen"
-    bash <(wget -qO- https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein)
+    wget -q https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein -O $HOME/.bin/lein
+    chmod 755 $HOME/.bin/lein
+    lein
 fi
