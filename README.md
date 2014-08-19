@@ -37,7 +37,7 @@ Read, then run the script:
 
 Read, then run the script:
 
-    bash <(wget -qO- https://raw.githubusercontent.com/thoughtbot/laptop/master/linux) 2>&1 | tee ~/laptop.log
+    bash <(wget -qO- https://raw.githubusercontent.com/treppo/laptop/master/linux) 2>&1 | tee ~/laptop.log
 
 Debugging
 ---------
@@ -63,8 +63,6 @@ What it sets up
 * [NVM] for managing versions of Node.js
 * [Parity] for development, staging, and production parity
 * [Postgres] for storing relational data
-* [Qt] for headless JavaScript testing via Capybara Webkit
-* [Rails] gem for writing web applications
 * [Rbenv] for managing versions of Ruby
 * [Redis] for storing key-value data
 * [Ruby Build] for installing Rubies
@@ -87,8 +85,6 @@ What it sets up
 [NVM]: https://github.com/creationix/nvm
 [Parity]: https://github.com/croaky/parity
 [Postgres]: http://www.postgresql.org/
-[Qt]: http://qt-project.org/
-[Rails]: http://rubyonrails.org/
 [Rbenv]: https://github.com/sstephenson/rbenv
 [Redis]: http://redis.io/
 [Ruby Build]: https://github.com/sstephenson/ruby-build
